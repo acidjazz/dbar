@@ -1,0 +1,27 @@
+{
+  "name": "dbar",
+  "version": "1.0.0",
+  "description": "destiny-inspired progress bar",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/acidjazz/dbar.git"
+  },
+  "keywords": [
+    "progress",
+    "bar",
+    "html",
+    "javascript"
+  ],
+  "author": "Kevin Olson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acidjazz/dbar/issues"
+  },
+  "homepage": "https://github.com/acidjazz/dbar#readme",
+  "dependencies": {
+  }
+}
