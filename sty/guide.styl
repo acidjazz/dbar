@@ -5,9 +5,12 @@ c = {}
 for key, value in data.colors
   c[key] = convert(value)
 
+f = {}
+for key, value in data.fonts
+  f[key] = unquote(value)
+
 .guide
   padding 20px 0 0 0 
-  background-color: c.white3
 
   > .sections
     padding 20px
@@ -15,7 +18,8 @@ for key, value in data.colors
       width 33%
       float left
       > .title
-        text-decoration underline
+        font: f.h3
+        padding 0 0 0 10px
 
       > .color
         padding 10px 20px

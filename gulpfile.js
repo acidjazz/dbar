@@ -87,7 +87,7 @@ gulp.task('sync', function() {
       }
     });
 
-  gulp.watch('dat/**/*', ['slurp']);
+  gulp.watch('dat/**/*', ['slurp', 'coffee','stylus','jade']);
   gulp.watch('cof/**/*.coffee', ['coffee']);
   gulp.watch('sty/**/*.styl', ['stylus']);
   gulp.watch('tpl/**/*.jade', ['jade']);
@@ -95,7 +95,7 @@ gulp.task('sync', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch('dat/**/*', ['slurp']);
+  gulp.watch('dat/**/*', ['slurp', 'coffee','stylus','jade']);
   gulp.watch('cof/**/*.coffee', ['coffee']);
   gulp.watch('sty/**/*.styl', ['stylus']);
   gulp.watch('tpl/**/*.jade', ['jade']);
