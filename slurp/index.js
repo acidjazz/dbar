@@ -1,11 +1,7 @@
-'use strict';
-
 var fs = require('fs');
 var assign = Object.assign || require('object-assign');
 var yaml = require('js-yaml');
 var json = require('json');
-
-var PLUGIN_NAME = 'gulp-slurp';
 
 module.exports = function (path) {
   var data, root;

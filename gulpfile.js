@@ -3,7 +3,6 @@ var gulp = require('gulp');
 
 var sync = require('browser-sync').create();
 
-var gutil = require('gulp-util');
 var notify = require('gulp-notify');
 
 var coffee = require('gulp-coffee');
@@ -15,7 +14,7 @@ var jade = require('gulp-jade');
 
 var sourcemaps = require('gulp-sourcemaps');
 
-var slurp = require('./gulp-slurp/index.js');
+var slurp = require('./slurp/index.js');
 
 var data = slurp('dat/');
 
