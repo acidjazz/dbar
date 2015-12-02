@@ -17,7 +17,12 @@ var sourcemaps = require('gulp-sourcemaps');
 
 var slurp = require('./gulp-slurp/index.js');
 
-var data = slurp('dat');
+var data = slurp('dat/');
+
+gulp.task('slurp', function() {
+  data = slurp('dat/');
+  return true;
+});
 
 gulp.task('vendors', function() {
 
@@ -48,14 +53,13 @@ gulp.task('coffee', function() {
 gulp.task('stylus', function() {
   gulp.src('sty/main.styl')
     .pipe(sourcemaps.init())
-    .pipe(stylus()
-      .on('error', notify.onError(function(error) {
-        return "Stylus error: " + error.message;
-      }))
-      .on('error', function(error) {
-        console.log(error);
-      })
-    )
+    .pipe(stylus({ rawDefine: { data: data } })
+    .on('error', notify.onError(function(error) {
+      return "Stylus error: " + error.message;
+    }))
+    .on('error', function(error) {
+      console.log(error);
+    }))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('pub/css'))
     .pipe(sync.stream());
@@ -63,7 +67,7 @@ gulp.task('stylus', function() {
 
 gulp.task('jade', function() {
   gulp.src('tpl/**/*.jade')
-    .pipe(jade({pretty: true, data: data})
+    .pipe(jade({pretty: true, locals: {data: data}})
       .on('error', notify.onError(function(error) {
         return "JADE error: " + error.message;
       }))
@@ -77,11 +81,14 @@ gulp.task('jade', function() {
 
 gulp.task('sync', function() {
   sync.init({
+    notify: false,
+    open: false,
     server: {
-      baseDir: 'pub/'
+      baseDir: 'pub/',
       }
     });
 
+  gulp.watch('dat/**/*', ['slurp']);
   gulp.watch('cof/**/*.coffee', ['coffee']);
   gulp.watch('sty/**/*.styl', ['stylus']);
   gulp.watch('tpl/**/*.jade', ['jade']);
@@ -89,6 +96,7 @@ gulp.task('sync', function() {
 });
 
 gulp.task('watch', function() {
+  gulp.watch('dat/**/*', ['slurp']);
   gulp.watch('cof/**/*.coffee', ['coffee']);
   gulp.watch('sty/**/*.styl', ['stylus']);
   gulp.watch('tpl/**/*.jade', ['jade']);
