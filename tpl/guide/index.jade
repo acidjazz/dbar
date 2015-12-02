@@ -2,8 +2,17 @@
 extends ../inc/layout
 
 block content
+  .guide
 
-  .guide this is the guide
+    .sections
 
-  script(type='text/javascript').
-    Guide.i()
+      .section.colors
+        .title Colors
+        each color, name in data.colors
+          .color(class='color_'+name) #{name} (#{color})
+
+      .section.fonts
+        .title Fonts
+        each font, name in data.fonts
+          .font(class='font_' + name) #{name}: #{font}
+ 
