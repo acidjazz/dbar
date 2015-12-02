@@ -1,0 +1,11 @@
+---
+  folder: nasa
+  cover: cover.jpg
+  author: Robin Stice
+  date: 9.27.2015
+  name: NASA Brand Guide
+  description: "The original NASA brand guide has been making its rounds on the blogs; we saw it on <a target='_new' href='http://hypebeast.com/2015/8/take-a-closer-look-at-nasa-futuristic-logo-from-the-70s'>HYPEBEAST</a> then found the <a href='https://www.flickr.com/photos/thisisdisplay/sets/72157627467855309/' target='_new'>ORIGINAL SOURCE</a>. Here are some of our favorite images." 
+  color: blue4
+  tags:
+    - culture
+  home: true

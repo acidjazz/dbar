@@ -1,0 +1,106 @@
+---
+sarah:
+  name: Sarah Blumenstein
+  position: Project Manager
+  summary: Born and raised outside Philadelphia, Sarah has embodied the Keystone moniker of her home state. Sarah is key to all of Astro's programs and projects due to her meticulous attention to detail, general cheeriness and downright damn good ideas. After receiving her BA in International Relations from the University of Colorado, she headed west and landed in SF. Since then, Sarah has immersed herself in the design process, defining projects and managing program objectives for clients ranging from established brands to up-and-coming visionaries.
+david:
+  name: David Whetstone
+  position: Art Director
+  summary: David comes to us from Ohio State University where he started to study accounting. While listening to accounting lectures, his sketches became more developed and intricate. David was reminded of his passion for drawing, paid more attention to his general art courses, and ultimately found his love of design. After receiving his Bachelor of Science in Design he made it west to Portland, OR. In Portland he focused on lifestyle-driven products at Cinco Design, working with such lifestyle giants as Nixon and Nike. We are excited to have David's quirky, insightful and full-on team player vibes in our studio.
+will:
+  name: Will Meeker
+  position: Strategy Director
+  summary: Equal parts informational linchpin and idea kingpin, Will hails from Portland, Oregon, after stints in both NYC and Japan. He quickly realized that he wanted to be involved with the making of things so he headed to the west coast to complete a B.Arch from CCA focusing on digital fabrication and design. Prior to joining Astro he worked in the realm of brand development and design helping direct brands MASH-SF, and a sub-brand of San Francisco clothing label Nice Collective.
+kyle:
+  name: Kyle Swen
+  position: EVP & Partner
+  summary: Kyle’s is the creative spark of Astro. Born in Minnesota-aka the gopher state-Kyle laid down paint and spun wrenches until design schools eventually led him out to California. After graduating with his Bachelors degree in Industrial Design from San Jose State University, he designed at Lunar and Tandem Computers (now HP) respectively. In addition to design partnering, creating and mentoring, Kyle enjoys time with his toys. If it has a motor and can propel you forward, Kyle can tune on it. Truly believing in the action side of action sports Kyle gets his knees in the breeze as often as life will let him, either tearing up Infineon on his Ducati or snowboarding up in Tahoe.
+devon:
+  name: Devon Stern
+  position: Motion Designer
+  summary: Born in California and raised in Hawaii, Devon arrived to Astro self-taught and self-motivated. Since the tender age of ten years old, Devon started honing his animation chops producing home-spun Megaman comics. Boredom is Devon’s biggest fear, but the desire and capacity to learn new things inside and outside the world of design is his biggest attribute that easily kicks the ass of his biggest fear. In a digital world, Devon still lives his life frame by frame. 
+clare:
+  name: Clare Nauman
+  position: Marcom Manager
+  summary: 'Growing up bi-coastal has provided Clare with the vast people skills needed to be the administrative baroness she has become. After bouncing between Oakland and Boston, Clare received her BA in Studio Art from Santa Clara University. Since the 2nd grade Clare has played her violin in various orchestras and the obscure cult-folk band “Green Apple Two Step.” One last violin related factoid: Clare can play “The Devil Went Down To Georgia” blindfolded.'
+karson:
+  name: Karson Shadley
+  position: Lead Designer
+  summary: "It's said that those who can, do, and those who can't teach. Karson proves that those who excel meld the two into a meaningful life of design and mentorship. With over 10 years as a design consultant and concurrently 5 years as an adjunct professor at CCA, Karson is comfortable bringing his collaborative startup ideations to clients large and small, and to the design world and beyond. Fun fact: Karson can whoop you in Ping Pong. Straight up."
+melody:
+  name: Melody Yung
+  position: Lead Designer
+  summary: Born in Hong Kong, Melody Yung comes to us by way of the University of the Arts in Philadelphia where she earned her degree in graphic design. After working for several years in NY, Melody decided snowstorms were for suckers and high-tailed it West to sunny California. Fashionable and faster than a rabbit, Melody can whip up fresh new designs while eating, walking, talking, and brushing her teeth.
+francois:
+  name: Francois Dransart
+  position: Designer
+  summary: While sitting beneath a tree between lectures at France’s Institut Supérieur de Design, Francois was struck on his head by an apple. While rubbing his head, he knew fighting gravity was his true calling and that Astro would be a perfect fit for him, his master’s degree, and his snowboard. If you can pry Francois away from his designing tools you’ll find him hiking, biking or shredding large hills in San Francisco or the nearby Sierras. 
+andres:
+  name: Andrés Quiroz
+  position: Lead Designer
+  summary: Where to start with a heavy cat like Andrés? He snatched his BFA in graphic design from Cal Poly. He worked his way up from lead onion dicer to Executive Chef in the span of one summer at Taqueria De La Muerte in Stockton CA, and he never once shed a tear. Andrés relies on hustle and pure vision, and sees life through his analog cameras. If he isn’t taking snaps or developing pictures in his dark room, you can find him at Astro leading one of the many graphic or packaging programs.
+astro:
+  name: Astronaut Mascot
+  position: Mascot
+  summary: We found Astro on ebay, where he had penned a beautiful pitch requesting aid in his escape from a dank closet in the middle of Wisconsin. He had been hanging in the darkness for over five years and that got depressing for this astral traveler. After making his way via FedEx to the west coast, Astro instantly warmed up. He now floats above the lobby at Astro Studios, where he greets tourist and aliens alike.
+mauricio:
+  name: Mauricio Romano
+  position: Designer
+  summary: Representing Western Washington University’s fighting Vikings is fresh-faced Mauricio Romano. Mauricio snatched his bachelor’s degree and bee-lined it to SF, a natural landing spot for his self-proclaimed sweater-kind-of-guy ethics. When he isn’t designing or being a soccer goalie, Mauricio is digitally sketching and painting concept art. Having lived in many different countries Mauricio brings the youth and freshness to his culturally diverse views, and finds his upbringing impacting his thoughtful design on every project.
+tom:
+  name: Tom Galbraith
+  position: Studio Manager/Writer
+  summary: Tom gets stuff done, isn’t afraid to wear a gorilla suit and heavily contributes to the Astro Blog, marketing materials, and any other content that may come across his desk. He has stepped foot in every state in this great nation of ours, even the ones he didn’t want to visit. Being a musician since birth, Tom turns his Astro duties into rock songs….like “Moving Chairs” or “Ordering Pop Tarts from Costco.” And although the critics love him, he’s been widely ignored by most music listeners.
+woo:
+  name: Woo
+  position: Creative Director
+  summary: Woo is our graphic juggernaut that brings years of experience to every project he directs for the brand communications team at Astro in graphics and culture creation. He moved to California where he co-founded Eleven Design Collective, further honing his brand strategy skills while woodshedding at Parr Goldman Byrne. Woo drives brand experiences at Astro to their market changing destinations, often as diverse and beautiful as the shores he visits in pursuit of the perfect wave.
+norio:
+  name: Norio Fujikawa
+  position: Creative Director
+  summary: After working his way through design school as a fish monger, Norio put down his fileting knife and studied at the Institute of Design in Chicago. Directing numerous successful projects, Norio has earned his scars and stripes as a big picture thinker and solver. He’s a perpetual artist who just can’t turn it off. Norio’s meeting notes have a tendency to end up on gallery walls and store shelves alike. Some say Norio is an art-robot from the future; others say he’s just Norio.
+brettn:
+  name: Brett Newman
+  position: Designer
+  summary: Brett received his BA in Industrial Design from the Rhode Island School of Design and spent a few years working at a small product consultancy before making his way to San Francisco. After six winters on the East Coast he's enjoying the California weather, exploring the city his forebears called home, and hunting for the perfect burrito. Making furniture, camping his way throughout the west, and returning to the soccer field keeps him busy outside of the studio. He's a hands-on designer and is loving the diversity of disciplines he gets tackle at Astro. 
+jim:
+  name: Jim Goodell
+  position:
+  summary: "With over twenty years of executive branding and design agency experience, Jim keeps a full-nelson on all things strategic at Astro. Hailing from the East Coast, Jim graduated from Purchase College, School of Art and Design. After receiving his MFA in Design and Photography from the University of Illinois, Jim landed in San Francisco, where he served for 15 years as the Managing Partner of Primo Angeli Inc. He soon stepped up to CEO of Primo Angeli: Fitch, where he was responsible throughout their global network for Packaging and Brand Communications. Away from the studio, you may find him searching for the perfect jetstream for his kites, or perfecting his photography. But don’t let the kite flying fool you, he can still flatten most wrestlers, even when he is wrestling above his weight class: welterweight."
+brett:
+  name: Brett Lovelady
+  position: Founder & CEO
+  summary: "Brett is a designer, communicator and angstridden creative capitalist. After receiving his BFA in Design at BYU, he escaped to Silicon Valley to design the future. After his successful run as Vice President of Design at Lunar and Frog respectively, he sought absolute power (aka responsibility) and unbridled creative license. This led him to the founding of Astro Studios in 1994, and it’s been a giant fun-filled waterslide of bringing innovative products to market, turning venturous sparks into fireballs, and becoming a global design voice. Brett’s favorite pastime is family time with a dash of sports and music to take the edge off. And if he gets the chance, a lap in his classic Mustang ragtop recharges him to pursue the next big thing."
+
+celeste:
+  name: Celeste Johnson
+  position: Studio Administrator
+  summary: "Celeste Johnson is the rarest of SF creatures: she’s a natural-born local! Thriving in creative spaces, she has the ability to keep the occasional chaos to a minimum. Celeste is a perfect fit for the Astro admin team. Don’t believe me? She actually has wrangled cats. Yep, Celeste worked at a Cat Hotel, keeping the cats and her crazy cat-lady boss in line. Pro-tip: Celeste has no known food allergies, but is afraid of snakes and leprechauns."
+carolyn:
+  name: Carolyn Galbraith
+  position: Finance Director
+  summary: Carolyn’s first job was peddling candy and nuts for the House Of Almonds in San Rafael, and her life has been pretty much uphill since then. After receiving her BA in Theater from UC Santa Cruz, she has quarterbacked the financial role for many diverse companies for over 20 years. Since her arrival at Astro Carolyn has continued in her role of financial steward, as well as quite literally put the human back in Human Resources. Although she still enjoys a good nut medley, she kicks out the cashews…too salty.
+robin:
+  name: Robin Stice
+  position: Lead Designer
+  summary: Robin Stice has a blackbelt in Tae Kwan Do, so we’ve allotted ample room at Robin’s workstation for roundhouse kicks and knee strikes. If you can avoid getting your ass kicked you’ll find the softer side of Robin; an accomplished graphic designer who earned her degree at The Academy of Art, SF and has worked in both SF and NY. Here at Astro Robin excels in the collaborations between our multiple design disciplines, and has an enormous amount of love for dumplings.
+sean:
+  name: Sean Missal
+  position: Designer
+  summary: Sean comes to us from Western Washington University where he earned his Bachelor Degree in Industrial Design. Born in the 90s, Sean is truly a child of the tech age. Sean interned at Astro before we snatched him up full-time and we’re quite proud of how the young man has turned out. Although relatively new to the commercial design game, Sean is laying down heavy design and knowledge for some of our top clients. Before designing, Sean was a pro-gamer with lighting thumbs and smoldering retinas. We turned that couch loving energy into a take no prisoners design machine. As long as we translate the design briefs into first person shooter scenarios, Sean excels every time.
+chris:
+  name: Chris Fairchild
+  position: Designer
+  summary: Chris is a graphic designer wrapped in a Renaissance man’s body. He plays guitar, bass, has two extra bones in his right foot and can sell life insurance. After receiving his degree in Advertising/Communications from the University of Georgia, Chris went to the Creative Circus in Atlanta. His love of exorbitant rents make him a perfect fit for SF, and his neurotic attention to detail, and hungry appetite to make/produce cool work make him a perfect fit for Astro.  
+kristy:
+  name: Kristy Green
+  position: Account Manager
+  summary: Kristy hails from the University of Illinois where she studied Nutrition, but a few rounds at the hospital quickly squashed the Florence Nightingale right out of her. Knowing she needed to be part of a creative scene, she switched gears into Advertising and cut her teeth at a handful of agencies in Chicago and San Francisco. Most recently, she lent her knowledge and calm to Goodby Silverstein & Partners before beaming on to the Astro Mothership where she currently resides. In her spare time, Kristy likes to teach her Chihuahua Rufus to play guitar and she says he’s doing well, although he needs to learn a few more songs...Magaritaville just isn’t cutting it.
+travis:
+  name: Travis Wettroth
+  position: Designer
+  summary: University of Cincinnati Bearcat Travis Wettroth earned his BFA in Industrial Design. Travis is one of those designers that has a hard time turning it off, so his downtime isn’t much different than his worktime. When left alone he enjoys improving on his figure drawing and 3D animation. The California DMV is really what drew Travis to settle in the Golden State. Travis loves the departments’s efficiency, and the care given to each motorist. Always learning and honing his skills, Travis’ bag of tricks is growing to Santa Claus proportions. 
+alejandro: 
+  name: Alejandro Chavette 
+  position: Creative Director 
+  summary: After Alejandro Chavetta earned his degree in Visual Communications and Graphic design from San Francisco State University, he spent many years in the artistic trenches of publishing. Alejandro brings this experience to Astro to fortify our brand communications team and articulate are client’s stories. He thrives in lacing together our disparate fortes, tying product into brand and UIUX back to product. Alejandro is also an accomplished collage artist whose pieces end up on album covers, gallery walls, and in client decks.

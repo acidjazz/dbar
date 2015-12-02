@@ -1,0 +1,17 @@
+---
+  -
+    title: general inquiries
+    copy: Have any questions for us after exploring our little corner of the universe? Drop us a line.
+    type: email
+    email: info@astrostudios.com
+  -
+    title: new biz
+    copy: We're always looking for partners to explore the final frontier with.  Feel free to send us an email with new business inquiries.
+    type: email
+    email: newbusiness@astrostudios.com
+  -
+    title: career
+    copy: Think you got have the right stuff to join Astro? Click the link below to see available openings.
+    type: link
+    link: /about/#careers
+    linkcopy: Apply Here

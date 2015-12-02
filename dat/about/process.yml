@@ -1,0 +1,27 @@
+---
+1: 
+  title: DIALOG
+  copy:
+    - We meet and discuss the goals, parameters and opportunities of the project to help craft the program and identify the best internal and network resources required for a successful outcome. 
+    - Activities may include meetings, brainstorming, conference calls, networking, and proposals.
+      
+2:
+  title: DEFINE
+  copy:
+    - As we begin the design work, Astro will create a strong point-of-view by immersing our team in relevant data from clients, competitors, market insights, and usage models to fuel the design process.
+    - Activities may include research, demographics, audits, technology reviews, user profiles & user scenarios, engineering & manufacturing reviews.
+3:
+  title: DESIGN
+  copy:
+    -	Using the fuel from the Define phase, Astro will create a range of concepts that explore the design and innovation potential by using various communication and design tools over a number of collaborative review sessions.
+    -	Activities may include 2D & 3D storyboards, identity concepts, illustrations, CAD models, physical models & prototypes.
+4:
+  title: DEVELOP
+  copy:
+    - Often overlapping with the Design phase, Astro will collaborate with implementation resources like engineering, manufacturing, printing, and coding, to guide and subsequently transfer the chosen direction into production.
+    -	Activities may include 2D/3D CAD development, color, materials & finishes specification files, packaging, out-of-box experiences, UI/UX refinement and interaction guidance.
+5:
+  title: DEPLOY
+  copy:
+    - Astro will help advocate and realize the original vision of the program into full commercialization mode with chosen resources and partners.
+    -	Activities might include part, product or print reviews, manufacturer visits, sales, advertising or retail support.

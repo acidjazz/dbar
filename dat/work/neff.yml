@@ -1,0 +1,34 @@
+---
+  folder: neff
+  cover: cover.jpg
+  hero: cover_2.png
+  name: Neff Watches
+  description: "We partnered with Neff to create a line of watches that embraces their motto: Forever Fun."
+  color: pink1
+  filters:
+    - product
+
+  credits:
+    links:
+      - http://www.getversus.com/
+      - http://www.esnselabs.com/
+    deliverables:
+      - Deliverable 1
+      - Deliverable 2
+      - Deliverable 3
+    press:
+      - IDEA Award for Excellence
+      - Featured in Fast Company Design
+      - I.D. Magazine Annual Review
+      
+  body1:
+    title: ENERGY. EXPRESSION. FUN.
+    copy: Neff's brand blasts the world with energy and self-expression. They asked us to create a watch line as recognizable and unique as the rest of their brand. We were inspired to directly align with the bold 2D graphics and playful retro-modern colorways seen in surf, skate, and youth culture. Mission accomplished.
+
+  body2: 
+    copy: The Strip watch features crisp, clean, graphic geometry and incorporates unique, versatile color blocking. The result is a watch with a presence that can be amplified up or down depending on color or material choices, ultimately appealing to a wide range of Neffheads.
+
+  related:
+    - minus8
+    - goggle
+    - sol

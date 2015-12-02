@@ -1,0 +1,68 @@
+---
+  folder: jinnitv
+  cover: banner.png
+  hero: banner_2.png
+  name: Jinni TV
+  description: Jinni TV created the first truly connected entertainment experience.  We brought it to life.
+  color: blue2
+  filters:
+    - digital
+
+  credits:
+    links:
+      - http://www.getversus.com
+      - http://www.senselabs.com
+    deliverables:
+      - Deliverable 1
+      - Deliverable 2
+      - Deliverable 3
+    press:
+      - IDEA Award for Excellence
+      - Featured in Fast Company Design
+      - I.D. Magazine Annual Review
+  body1: 
+    title: TV HAS CHANGED
+    copy: "In the past, TV choices were limited to broadcast networks. Later, cable channels created hundreds of choices. Now, with the addition of streaming and on-demand services, choice is nearly unlimited -- creating a new problem: finding something to watch. Jinni partnered with Astro to develop an information design language and UX model that made their technology functionally friendly."
+
+  body2: 
+    title: NEW UX PRINCIPLES
+    copy: "Our goal in creating a next generation TV entertainment experience was simple: create an enjoyable experience that gets you to great content faster, using Jinni’s unique Entertainment Genome to find the best content for you."
+    color: white3
+
+  container1:
+    title: SO MANY OPTIONS
+    copy: The first thing we noticed about most TV experiences was that they offered too many choices. 
+    color: red1
+
+  container2:
+    title: REDUCE CHOICE
+    copy: "To make the experience less stressful, we reduced choice at any moment. Large grids of thumbnails were replaced with short lists, never containing more than 5 choices on a screen at once."
+    color: blue2
+
+  container3:
+    title: FORM FAIL
+    copy: When searching for content, many applications ask the user to submit long queries or go through a multistep process. 
+    color: red1
+
+  container4:
+    title: REDUCE FRICTION
+    copy: "We decided to make results instant, so even when filtering through content, you see immediate results and never have to hit “submit”." 
+    color: blue2
+
+  container5:
+    title: TUBES
+    copy: "Jinni’s Entertainment Genome creates the best possible connection between content. We leveraged this in a deceptively simple idea: allow any piece of content to be a gateway to more titles like it, leading to a fluid discovery experience." 
+    color: blue2
+
+  body3:
+    left: Using Jinni's Entertainment Genome technology as a starting point, we designed a user discovery experience that allows viewers to discover the content they want, before they know they want it, without ever having to punch in a frustratingly long show title into a search bar.
+    right: The result was an intuitive and visually compelling experience that allowed viewers to navigate a novel content hierarchy and cover more relevant information than ever. 
+
+  callout: 
+    copy: Jinni TV was awarded an Emmy for Innovation in TV Discovery in 2015.
+    color: blue7
+
+  related:
+    - fuelband
+    - versus
+    - mineralist

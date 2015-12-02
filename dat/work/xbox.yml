@@ -1,0 +1,39 @@
+---
+  folder: xbox
+  cover: 2xbox360.png
+  hero: 2xbox360.png
+  name: XBOX
+  description: A worldwide phenomenon and American pop culture classic, Microsoft's XBOX 360 is one of the most successful gaming consoles of all time.
+  color: green2
+  filters:
+    - product
+
+  credits:
+    links:
+      - http://www.getversus.com
+      - http://www.senselabs.com
+    deliverables:
+      - Deliverable 1
+      - Deliverable 2
+      - Deliverable 3
+    press:
+      - IDEA Award for Excellence
+      - Featured in Fast Company Design
+      - I.D. Magazine Annual Review
+  body1:
+    title: MORE THAN JUST A GAME
+    copy: "Microsoft challenged Astro to design the 2nd generation XBOX to reflect what its technology would make it: a high-octane digital portal to the converging world of live video gaming and online services."
+    color: black3
+
+  body2:
+    left: "Working with XBOX design and development partners in the US, Asia, and Europe, Astro developed the 360 to be just that: attractive from any vantage point. The 360 was also designed to drive confidence in its new wireless controller connectivity as well as XBOX Live, its online gaming marketplace."
+    right: "The result: a comprehensive design language applied to everything XBOX 360, including wireless controllers, custom faceplates, a removable hard drive, accessories galore and, of course, the iconic console itself."
+
+  callout: 
+    copy: With over 80 million units sold since the beginning of its production run, the XBOX 360 has been a gaming mainstay for nearly a decade and pop-culture touchstone forever.
+    color: black3
+
+  related:
+    - fuelband
+    - versus
+    - threedr

@@ -1,0 +1,14 @@
+---
+index: true
+url: http://www.astrostudios.com/
+meta: 
+  title: "Astro Studios"
+  description: "Creators of Supercharged Brand and Product Experiences. Astro is a registered trademark of Astro Studios, Inc."
+  keywords: "astro, studios, astrostudios, design, design firm, design studio, design agency, product design, product development, industrial design, package design, packaging design, graphic design, brand design, brand development, corporate naming"
+sections: 
+  - "work"
+  - "guide"
+  - "about"
+  - "contact"
+  - "blog"
+  - "error"

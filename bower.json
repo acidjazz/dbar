@@ -1,0 +1,24 @@
+{
+  "name": "dbar",
+  "description": "destiny-inspired progress bar",
+  "main": "index.html",
+  "authors": [
+    "Kevin Olson"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "progress",
+    "bar",
+    "html",
+    "javascript"
+  ],
+  "homepage": "https://github.com/acidjazz/dbar",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

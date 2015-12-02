@@ -1,0 +1,40 @@
+---
+  folder: tamar
+  cover: hero.jpg
+  hero: hero_2.png
+  name: Tamar
+  description: Astro partnered with pop sensation Tamar Braxton to launch a signature fashion brand that would excite her fan base and generate crossover category appeal.
+  color: orange1
+  filters:
+    - brand
+
+  credits:
+    links:
+      - http://www.getversus.com
+      - http://www.senselabs.com
+    deliverables:
+      - Deliverable 1
+      - Deliverable 2
+      - Deliverable 3
+    press:
+      - IDEA Award for Excellence
+      - Featured in Fast Company Design
+      - I.D. Magazine Annual Review
+  body1:
+    title: MAKING A STAR GO SUPERNOVA
+    copy: We were challenged to take Tamar Braxton's presence as a successful musician and reality TV star and define, design, and commercialize her personality into a successful fashion brand.
+
+  callout: 
+    copy: We built the Tamar brand system to be as strong and as instantly recognizable as the woman behind it. 
+    color: orange1
+
+  container1: 
+    copy: We chose bold colors, textures, and patterns to create a strong bond between Tamar, her brand, and her fans.
+
+  body2:
+    copy: The result is a timeless, bold identity that’s loved and championed by tens of thousands of Tamartians around the world.
+
+  related:
+    - sol
+    - mineralist
+    - threedr

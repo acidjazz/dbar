@@ -1,0 +1,39 @@
+---
+  folder: fuelband
+  cover: silver.jpg
+  hero: silver.jpg
+  name: Nike+ Fuelband
+  description: Nike Digital Sport asked Astro to help develop a product that would change the way people think about fitness.  Thus was born the Nike+ Fuelband.  A revolutionary piece of wearable tech that does more than simply track activity, it lets wearers compete against each other in the game of life.
+  color: green3
+  filters:
+    - strategy
+    - digital
+    - product
+
+  credits:
+    links:
+      - http://www.getversus.com
+      - http://www.senselabs.com
+    deliverables:
+      - Deliverable 1
+      - Deliverable 2
+      - Deliverable 3
+    press:
+      - IDEA Award for Excellence
+      - Featured in Fast Company Design
+      - I.D. Magazine Annual Review
+  body1:
+    title: ACTIVELY INSPIRED
+    copy: The Nike+ Fuelband's design is inspired by the active lifestyle it encourages. A soft, sport-inspired, outer skin is designed for lasting comfort under the toughest athletic tests.
+    
+  body2:
+    left: The interaction design on the Fuelband was created to encourage wearers to be active by rewarding them with motivational messages and a running tally of their fuel points, all showcased across a delightful dead-front display.
+    right: One of the earliest expressions of the quantified self movement, we designed the Nike+ Fuelband to have a refined, unisex aesthetic that made it one of the first wearables to be both fashionable and functional. Expanded editions included Fuelbands made with gold, silver, and a range of active colors.
+
+  body3:
+    copy: The final result was a product with an iconic form and a totally original experience that inspired desire in millions of active people and helped ignite the fitness tracker trend.
+
+  related:
+    - owlet
+    - jinnitv
+    - threedr

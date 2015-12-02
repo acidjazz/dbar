@@ -1,0 +1,19 @@
+---
+- 
+  name: all
+  copy: We’ve been creating the future for a while now.
+- 
+  name: product
+  copy: Awesome stuff we made & stuff we made look awesome.
+- 
+  name: strategy
+  copy: Helping brands and products navigate the marketplace and their future.
+- 
+  name: digital
+  copy: Design for experiences and interactions, big and small.
+- 
+  name: brand
+  copy: Fuel to build iconic identities and soulful companies.
+- 
+  name: holistic
+  copy: Integrated, interdisciplinary design from inspiration to implementation.
