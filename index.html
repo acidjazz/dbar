@@ -9,13 +9,27 @@
     <meta name="description" content="A progress bar inspired by playing too much Destiny">
     <meta name="keywords" content="progress bar, progress, bar, javascript, stylus, jade, Destiny">
     <script type="text/javascript" src="/jst/lib/vendor.min.js"></script>
+    <script type="text/javascript" src="/jst/dbar.js"></script>
     <script type="text/javascript" src="/jst/index.js"></script>
   </head>
   <body>
     <header>
-      <div class="title">dBar</div>
+      <div class="title">dbar</div>
       <div class="description">A progress bar inspired by playing too much Destiny</div>
     </header>
+    <div class="main">
+      <div data-js="dbar.i()" class="command">dbar.<span>i()</span> - initiate the progress bar</div>
+      <div data-js="dbar.perc(0.25)" class="command">dbar.<span>perc(0.25)</span> - set the progress to 25%</div>
+      <div data-js="dbar.perc(0.5)" class="command">dbar.<span>perc(0.5)</span> - set the progress to 50%</div>
+      <div data-js="dbar.perc(0.75)" class="command">dbar.<span>perc(0.75)</span> - set the progress to 75%</div>
+      <div data-js="dbar.d()" class="command">dbar.<span>d()</span> - complete and remove the progress bar</div>
+    </div>
+    <div class="dbar off">
+      <div class="inner">
+        <div class="gradient"></div>
+        <div class="full"></div>
+      </div>
+    </div>
     <script type="text/javascript">Index.i()</script>
   </body>
 </html>
