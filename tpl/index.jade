@@ -15,6 +15,10 @@ block content
     .command(data-js='dbar.perc(0.75)') dbar.<span>perc(0.75)</span> - set the progress to 75%
     .command(data-js='dbar.d()') dbar.<span>d()</span> - complete and remove the progress bar
 
+    .command(data-js='dbar.set({barColor: \''+data.colors.red1+'\'})') dbar.<span>set({barColor: #{data.colors.red1})</span> - set the bar color
+    .command(data-js='dbar.set({barColor: \''+data.colors.green1+'\'})') dbar.<span>set({barColor: #{data.colors.green1})</span> - set the bar color
+    .command(data-js='dbar.set({gradientColor: \''+data.colors.green1+'\'})') dbar.<span>set({gradientColor: #{data.colors.green1})</span> - set the gradient color
+
   include dbar
   script(type='text/javascript').
     Index.i()
