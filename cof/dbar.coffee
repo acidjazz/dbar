@@ -25,6 +25,8 @@ dbar =
    if options.gradientColor isnt undefined
      dbar.el().css('background-color', options.gradientColor)
      dbar.el().find('.gradient').css('background', "linear-gradient(90deg, #{options.gradientColor}, rgba(255,255,255,1)")
+   if options.height isnt undefined
+     dbar.el().css 'height', options.height
 
   d: ->
     dbar.perc 1
