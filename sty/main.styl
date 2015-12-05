@@ -22,8 +22,13 @@ header
     color: c.black3
 
 .main
+  &.off
+    display none
+  &.on
+    display block
   max-width 600px
   margin auto
+  animation fadeIn 0.2s 0s ease-in both
   > .command
     width 90%
     background-color: c.white2
@@ -31,9 +36,29 @@ header
     margin 10px auto
     transition background-color 0.1s linear
     user-select none
+    animation cellInX 0.2s 0.2s ease-in both
+    for num in 0..20
+      &:nth-child({num})
+        animation-delay unit(num*0.1, 's')
     &:hover
       cursor pointer
       background-color: c.blue3
       color: c.white1
     span
       color: c.blue6
+
+@keyframes cellInX
+  from
+    transform translate(10px, 0)
+    opacity 0
+  to
+    transform translate(0, 0)
+    opacity 1
+
+@keyframes fadeIn
+  from
+    opacity 0
+  to
+    opacity 1
+
+

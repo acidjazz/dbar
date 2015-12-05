@@ -7,7 +7,7 @@ block content
     .title dbar
     .description=data.config.meta.description
 
-  .main
+  .main.off
 
     .command(data-js='dbar.i()') dbar.<span>i()</span> - initiate the progress bar
     .command(data-js='dbar.perc(0.25)') dbar.<span>perc(0.25)</span> - set the progress to 25%
@@ -22,7 +22,7 @@ block content
     .command(data-js='dbar.set({gradientColor: \''+data.colors.orange1+'\'})') dbar.<span>set({gradientColor: <color data-c=#{data.colors.orange1}>#{data.colors.orange1}</color>})</span> - set the gradient color
 
     .command(data-js='dbar.set({height: \'10px\'})') dbar.<span>set({height: 10px})</span> - set the bar height
-    .command(data-js='dbar.set({height: \'30px\'})') dbar.<span>set({height: 30px})</span> - set the bar height
+    .command(data-js='dbar.set({height: \'20px\'})') dbar.<span>set({height: 20px})</span> - set the bar height
 
   include dbar
   script(type='text/javascript').

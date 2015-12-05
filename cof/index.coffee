@@ -10,6 +10,22 @@ Index =
 
     for line in ascii.split "\n"
       console.log "%c#{line}", 'font-family: "Lucida Console"; font-size: 16px; color: #4d394b'
+
+    dbar.i()
+    setTimeout ->
+      dbar.perc 0.25
+    , 1000
+    setTimeout ->
+      dbar.perc 0.5
+    , 1200
+    setTimeout ->
+      dbar.perc 0.75
+    , 1400
+    setTimeout ->
+      dbar.d()
+      $('.main').removeClass('off').addClass('on')
+    , 1700
+
   handlers: ->
 
     $('.command').on 'click', Index.command
