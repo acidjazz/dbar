@@ -14,20 +14,27 @@ var jade = require('gulp-jade');
 
 var sourcemaps = require('gulp-sourcemaps');
 
-var slurp = require('./slurp/index.js');
+var objectus = require('objectus');
 
-var data = slurp('dat/');
+objectus('dat/', function(error, result) {
+  if (error) {
+    notify(error);
+  }
+  data = result
+});
 
 gulp.task('slurp', function() {
-  data = slurp('dat/');
-  return true;
+  objectus('dat/', function(error, result) {
+    if (error) {
+      notify(error);
+    }
+    data = result
+  });
 });
 
 gulp.task('vendors', function() {
 
-  gulp.src([
-      'bower_components/jquery/dist/jquery.js'
-  ])
+  gulp.src(['bower_components/jquery/dist/jquery.js'])
   .pipe(sourcemaps.init())
   .pipe(uglify())
   .pipe(concat('vendor.min.js'))
@@ -41,7 +48,7 @@ gulp.task('coffee', function() {
     .pipe(sourcemaps.init())
     .pipe(coffee({bare: true})
       .on('error', notify.onError(function(error) {
-        return "Coffee error: " + error.message;
+        return {title: "Coffee error", message: error.message + "\r\n" + error.filename + ':' + error.location.first_line, sound: 'Pop'};
       }))
     )
     .pipe(sourcemaps.write())
@@ -54,7 +61,7 @@ gulp.task('stylus', function() {
     .pipe(sourcemaps.init())
     .pipe(stylus({ rawDefine: { data: data } })
     .on('error', notify.onError(function(error) {
-      return "Stylus error: " + error.message;
+      return {title: "Stylus error: " + error.name, message: error.message, sound: 'Pop' };
     }))
     .on('error', function(error) {
       console.log(error);
@@ -68,7 +75,7 @@ gulp.task('jade', function() {
   gulp.src('tpl/**/*.jade')
     .pipe(jade({pretty: true, locals: {data: data}})
       .on('error', notify.onError(function(error) {
-        return "JADE error: " + error.message;
+        return {title: "Jade error: " + error.name, message: error.message, sound: 'Pop' };
       }))
       .on('error', function(error) {
         console.log(error);

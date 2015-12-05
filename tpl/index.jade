@@ -2,10 +2,19 @@
 extends inc/layout
 
 block content
+
   header
-    .title dBar
+    .title dbar
     .description=data.config.meta.description
 
+  .main
+
+    .command(data-js='dbar.i()') dbar.<span>i()</span> - initiate the progress bar
+    .command(data-js='dbar.perc(0.25)') dbar.<span>perc(0.25)</span> - set the progress to 25%
+    .command(data-js='dbar.perc(0.5)') dbar.<span>perc(0.5)</span> - set the progress to 50%
+    .command(data-js='dbar.perc(0.75)') dbar.<span>perc(0.75)</span> - set the progress to 75%
+    .command(data-js='dbar.d()') dbar.<span>d()</span> - complete and remove the progress bar
+
+  include dbar
   script(type='text/javascript').
     Index.i()
-    

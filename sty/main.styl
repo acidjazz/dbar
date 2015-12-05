@@ -1,16 +1,32 @@
 
 @import guide
+@import dbar
 
 body
-  background-color: c.white1
+  background-color: c.white2
   font: f.copy
+  color: c.black1
 
 header
   padding 20px 
   > .title
     text-align center
-    font-size 40px
-    padding 0 0 20px 0
+    font: f.h1
+    padding 20px 0 10px 0
+    color: c.blue6
   > .description
     text-align center
-    font-size 30px
+    font: f.h3
+    color: c.blue7
+
+.main
+  > .command
+    width 400px
+    background-color: c.white1
+    padding 10px 15px
+    margin 10px auto
+    &:hover
+      cursor pointer
+      background-color: c.blue7
+    span
+      color: c.blue6
