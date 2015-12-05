@@ -5,6 +5,9 @@ Index =
 
     Index.handlers()
 
+    $('color').each  (i, e) ->
+      $(e).css 'color', $(e).data 'c'
+
     for line in ascii.split "\n"
       console.log "%c#{line}", 'font-family: "Lucida Console"; font-size: 16px; color: #4d394b'
   handlers: ->
@@ -15,7 +18,6 @@ Index =
   command: ->
 
     js = $(this).data 'js'
-    console.log js
     eval js
 
 
