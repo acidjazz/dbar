@@ -22,3 +22,8 @@ dbar =
     dbar.el()
       .removeClass 'on'
       .addClass 'off'
+
+    setTimeout ->
+      dbar.perc 0
+    , 700
+
