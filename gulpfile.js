@@ -54,6 +54,10 @@ gulp.task('coffee', function() {
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('pub/jst'))
     .pipe(sync.stream());
+
+  gulp.src('cof/dbar.coffee')
+    .pipe(coffee({bare: true}))
+    .pipe(gulp.dest('src/'));
 });
 
 gulp.task('stylus', function() {

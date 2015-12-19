@@ -8,8 +8,8 @@ Index =
     $('color').each  (i, e) ->
       $(e).css 'color', $(e).data 'c'
 
-    for line in ascii.split "\n"
-      console.log "%c#{line}", 'font-family: "Lucida Console"; font-size: 16px; color: #4d394b'
+    #for line in ascii.split "\n"
+    console.log "%c256.sh", 'font-family: "Verdana"; font-size: 16px; color: #4d394b'
 
     dbar.i()
     setTimeout ->
@@ -35,8 +35,6 @@ Index =
 
     js = $(this).data 'js'
     eval js
-
-
 
 ascii = '''
 :::::::::::::::::::::::::::::::::::::::::::::::::::
