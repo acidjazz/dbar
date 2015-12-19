@@ -9,7 +9,5 @@ A customizable flexible progress bar w/ a look inspired by the game Destiny.
 Installation
 ------------
 
-Add [dbar.js] and [dbar.css] to your project.
-
-```
+Add [src/dbar.js] and [src/dbar.css] to your project.
 
