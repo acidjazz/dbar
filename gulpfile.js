@@ -69,6 +69,11 @@ gulp.task('stylus', function() {
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('pub/css'))
     .pipe(sync.stream());
+
+  gulp.src('sty/dbar.styl')
+    .pipe(stylus())
+    .pipe(gulp.dest('src/'))
+
 });
 
 gulp.task('jade', function() {
@@ -83,6 +88,10 @@ gulp.task('jade', function() {
     )
     .pipe(gulp.dest('pub'))
     .pipe(sync.stream());
+
+  gulp.src('tpl/dbar.jade')
+    .pipe(jade({pretty: true}))
+
 });
 
 gulp.task('sync', function() {

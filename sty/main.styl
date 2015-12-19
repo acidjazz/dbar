@@ -1,6 +1,10 @@
 
+@import mixins
 @import guide
 @import dbar
+
+.clear
+  clearfix()
 
 body
   background-color: c.white1
@@ -29,6 +33,17 @@ header
   max-width 600px
   margin auto
   animation fadeIn 0.2s 0s ease-in both
+
+  > .title
+    font: f.h3
+    color: c.blue3
+    padding 10px 15px
+  > .gist-it-gist
+    padding 10px 15px
+    > .gist-file
+      > .gist-meta > span:first-child
+        display none
+
   > .command
     width 90%
     background-color: c.white2
@@ -46,6 +61,11 @@ header
       color: c.white1
     span
       color: c.blue6
+  > .buttons
+    padding 10px 15px
+    animation cellInX 0.2s 1.5s ease-in both
+    > iframe
+      float right
 
 @keyframes cellInX
   from
