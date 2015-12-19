@@ -2,10 +2,52 @@
 extends inc/layout
 
 block content
+
   header
-    .title dBar
+    .title dbar
     .description=data.config.meta.description
 
+  .main.off
+
+    .command(data-js='dbar.i()') dbar.<span>i()</span> - initiate the progress bar
+    .command(data-js='dbar.perc(0.25)') dbar.<span>perc(0.25)</span> - set the progress to 25%
+    .command(data-js='dbar.perc(0.5)') dbar.<span>perc(0.5)</span> - set the progress to 50%
+    .command(data-js='dbar.perc(0.75)') dbar.<span>perc(0.75)</span> - set the progress to 75%
+
+    .command(data-js='dbar.set({barColor: \''+data.colors.red1+'\'})') dbar.<span>set({barColor: <color data-c=#{data.colors.red1}>#{data.colors.red1}</color>})</span> - set the bar color
+    .command(data-js='dbar.set({barColor: \''+data.colors.blue1+'\'})') dbar.<span>set({barColor: <color data-c=#{data.colors.blue1}>#{data.colors.blue1}</color>})</span> - set the bar color
+    .command(data-js='dbar.set({barColor: \''+data.colors.green1+'\'})') dbar.<span>set({barColor: <color data-c=#{data.colors.green1}>#{data.colors.green1}</color>})</span> - set the bar color
+    .command(data-js='dbar.set({gradientColor: \''+data.colors.blue7+'\'})') dbar.<span>set({gradientColor: <color data-c=#{data.colors.blue7}>#{data.colors.blue7}</color>})</span> - set the gradient color
+
+    .command(data-js='dbar.set({height: \'10px\'})') dbar.<span>set({height: 10px})</span> - set the bar height
+    .command(data-js='dbar.set({height: \'20px\'})') dbar.<span>set({height: 20px})</span> - set the bar height
+
+    .command(data-js='dbar.d()') dbar.<span>d()</span> - complete and remove the progress bar
+
+    .buttons
+      iframe(src="https://ghbtns.com/github-btn.html?user=acidjazz&type=follow&count=true&size=large"
+        frameborder="0"
+        scrolling="0"
+        width="220px"
+        height="30px"
+      )
+      iframe(
+        src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=star&count=true&size=large"
+        frameborder="0"
+        scrolling="0"
+        width="160px"
+        height="30px"
+      )
+      .clear
+
+
+    .title Install dbar
+
+    .subtitle Via Bower
+
+    //script(src="http://gist-it.appspot.com/https://github.com/acidjazz/dbar/blob/master/cof/dbar.coffee")
+    //script(src="http://gist-it.appspot.com/https://github.com/acidjazz/dbar/blob/master/sty/dbar.styl")
+
+  include dbar
   script(type='text/javascript').
     Index.i()
-    

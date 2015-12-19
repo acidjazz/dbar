@@ -6,16 +6,67 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height">
     <link rel="stylesheet" href="/css/main.css" type="text/css" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,300" rel="stylesheet" type="text/css">
     <meta name="description" content="A progress bar inspired by playing too much Destiny">
     <meta name="keywords" content="progress bar, progress, bar, javascript, stylus, jade, Destiny">
-    <script type="text/javascript" src="/jst/lib/vendor.min.js"></script>
-    <script type="text/javascript" src="/jst/index.js"></script>
+    <link rel="apple-touch-icon" sizes="57x57" href="/ico/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/ico/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/ico/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/ico/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/ico/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/ico/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/ico/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/ico/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/ico/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/ico/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/ico/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/ico/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/ico/manifest.json">
+    <link rel="mask-icon" href="/ico/safari-pinned-tab.svg" color="#434965">
+    <link rel="shortcut icon" href="/ico/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ico/mstile-144x144.png">
+    <meta name="msapplication-config" content="/ico/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <script type="text/javascript" src="./jst/lib/vendor.min.js"></script>
+    <script type="text/javascript" src="./jst/dbar.js"></script>
+    <script type="text/javascript" src="./jst/index.js"></script>
   </head>
   <body>
     <header>
-      <div class="title">dBar</div>
+      <div class="title">dbar</div>
       <div class="description">A progress bar inspired by playing too much Destiny</div>
     </header>
+    <div class="main off">
+      <div data-js="dbar.i()" class="command">dbar.<span>i()</span> - initiate the progress bar</div>
+      <div data-js="dbar.perc(0.25)" class="command">dbar.<span>perc(0.25)</span> - set the progress to 25%</div>
+      <div data-js="dbar.perc(0.5)" class="command">dbar.<span>perc(0.5)</span> - set the progress to 50%</div>
+      <div data-js="dbar.perc(0.75)" class="command">dbar.<span>perc(0.75)</span> - set the progress to 75%</div>
+      <div data-js="dbar.set({barColor: '#ee5655'})" class="command">dbar.<span>set({barColor: <color data-c=#ee5655>#ee5655</color>})</span> - set the bar color</div>
+      <div data-js="dbar.set({barColor: '#0195FF'})" class="command">dbar.<span>set({barColor: <color data-c=#0195FF>#0195FF</color>})</span> - set the bar color</div>
+      <div data-js="dbar.set({barColor: '#76D734'})" class="command">dbar.<span>set({barColor: <color data-c=#76D734>#76D734</color>})</span> - set the bar color</div>
+      <div data-js="dbar.set({gradientColor: '#ACB2C1'})" class="command">dbar.<span>set({gradientColor: <color data-c=#ACB2C1>#ACB2C1</color>})</span> - set the gradient color</div>
+      <div data-js="dbar.set({height: '10px'})" class="command">dbar.<span>set({height: 10px})</span> - set the bar height</div>
+      <div data-js="dbar.set({height: '20px'})" class="command">dbar.<span>set({height: 20px})</span> - set the bar height</div>
+      <div data-js="dbar.d()" class="command">dbar.<span>d()</span> - complete and remove the progress bar</div>
+      <div class="buttons">
+        <iframe src="https://ghbtns.com/github-btn.html?user=acidjazz&amp;type=follow&amp;count=true&amp;size=large" frameborder="0" scrolling="0" width="220px" height="30px"></iframe>
+        <iframe src="https://ghbtns.com/github-btn.html?user=twbs&amp;repo=bootstrap&amp;type=star&amp;count=true&amp;size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+        <div class="clear"></div>
+      </div>
+      <div class="title">Install dbar</div>
+      <div class="subtitle">Via Bower</div>
+      <!--script(src="http://gist-it.appspot.com/https://github.com/acidjazz/dbar/blob/master/cof/dbar.coffee")-->
+      <!--script(src="http://gist-it.appspot.com/https://github.com/acidjazz/dbar/blob/master/sty/dbar.styl")-->
+    </div>
+    <div class="dbar off">
+      <div class="inner">
+        <div class="gradient"></div>
+        <div class="full"></div>
+      </div>
+    </div>
     <script type="text/javascript">Index.i()</script>
   </body>
 </html>

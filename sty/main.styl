@@ -1,16 +1,84 @@
 
+@import mixins
 @import guide
+@import dbar
+
+.clear
+  clearfix()
 
 body
   background-color: c.white1
   font: f.copy
+  color: c.black1
+  font-weight 300
 
 header
   padding 20px 
   > .title
     text-align center
-    font-size 40px
-    padding 0 0 20px 0
+    font: f.h1
+    font-weight 700
+    padding 20px 0 10px 0
+    color: c.blue3
   > .description
     text-align center
-    font-size 30px
+    font: f.h3
+    color: c.black3
+
+.main
+  &.off
+    display none
+  &.on
+    display block
+  max-width 600px
+  margin auto
+  animation fadeIn 0.2s 0s ease-in both
+
+  > .title
+    font: f.h3
+    color: c.blue3
+    padding 10px 15px
+  > .gist-it-gist
+    padding 10px 15px
+    > .gist-file
+      > .gist-meta > span:first-child
+        display none
+
+  > .command
+    width 90%
+    background-color: c.white2
+    padding 10px 15px
+    margin 10px auto
+    transition background-color 0.1s linear
+    user-select none
+    animation cellInX 0.2s 0.2s ease-in both
+    for num in 0..20
+      &:nth-child({num})
+        animation-delay unit(num*0.1, 's')
+    &:hover
+      cursor pointer
+      background-color: c.blue3
+      color: c.white1
+    span
+      color: c.blue6
+  > .buttons
+    padding 10px 15px
+    animation cellInX 0.2s 1.5s ease-in both
+    > iframe
+      float right
+
+@keyframes cellInX
+  from
+    transform translate(10px, 0)
+    opacity 0
+  to
+    transform translate(0, 0)
+    opacity 1
+
+@keyframes fadeIn
+  from
+    opacity 0
+  to
+    opacity 1
+
+
