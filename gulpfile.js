@@ -1,4 +1,6 @@
 
+
+var fs = require('fs');
 var gulp = require('gulp');
 
 var sync = require('browser-sync').create();
@@ -55,9 +57,11 @@ gulp.task('coffee', function() {
     .pipe(gulp.dest('pub/jst'))
     .pipe(sync.stream());
 
+  fs.createReadStream('cof/dbar.coffee').pipe(fs.createWriteStream('src/dbar.coffee'))
+
   gulp.src('cof/dbar.coffee')
     .pipe(coffee({bare: true}))
-    .pipe(gulp.dest('src/'));
+    .pipe(gulp.dest('src/pub/'));
 });
 
 gulp.task('stylus', function() {
@@ -74,9 +78,10 @@ gulp.task('stylus', function() {
     .pipe(gulp.dest('pub/css'))
     .pipe(sync.stream());
 
+  fs.createReadStream('sty/dbar.styl').pipe(fs.createWriteStream('src/dbar.styl'))
   gulp.src('sty/dbar.styl')
     .pipe(stylus())
-    .pipe(gulp.dest('src/'))
+    .pipe(gulp.dest('src/pub/'))
 
 });
 
@@ -93,8 +98,10 @@ gulp.task('jade', function() {
     .pipe(gulp.dest('pub'))
     .pipe(sync.stream());
 
+  fs.createReadStream('tpl/dbar.jade').pipe(fs.createWriteStream('src/dbar.jade'))
   gulp.src('tpl/dbar.jade')
     .pipe(jade({pretty: true}))
+    .pipe(gulp.dest('src/pub'))
 
 });
 
