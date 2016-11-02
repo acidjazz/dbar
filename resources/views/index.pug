@@ -1,11 +1,11 @@
 
-extends inc/layout
+extends extends/layout
 
 block content
 
   header
     .title dbar
-    .description=data.config.meta.description
+    .description=config.meta.description
 
   .main.off
     .title Usage
@@ -15,10 +15,10 @@ block content
     .command(data-js='dbar.perc(0.5)') dbar.<span>perc(0.5)</span> - set the progress to 50%
     .command(data-js='dbar.perc(0.75)') dbar.<span>perc(0.75)</span> - set the progress to 75%
 
-    .command(data-js='dbar.set({barColor: \''+data.colors.red1+'\'})') dbar.<span>set({barColor: <color data-c=#{data.colors.red1}>#{data.colors.red1}</color>})</span> - set the bar color
-    .command(data-js='dbar.set({barColor: \''+data.colors.blue1+'\'})') dbar.<span>set({barColor: <color data-c=#{data.colors.blue1}>#{data.colors.blue1}</color>})</span> - set the bar color
-    .command(data-js='dbar.set({barColor: \''+data.colors.green1+'\'})') dbar.<span>set({barColor: <color data-c=#{data.colors.green1}>#{data.colors.green1}</color>})</span> - set the bar color
-    .command(data-js='dbar.set({gradientColor: \''+data.colors.blue7+'\'})') dbar.<span>set({gradientColor: <color data-c=#{data.colors.blue7}>#{data.colors.blue7}</color>})</span> - set the gradient color
+    .command(data-js='dbar.set({barColor: \''+config.colors.red1+'\'})') dbar.<span>set({barColor: <color data-c=#{config.colors.red1}>#{config.colors.red1}</color>})</span> - set the bar color
+    .command(data-js='dbar.set({barColor: \''+config.colors.blue1+'\'})') dbar.<span>set({barColor: <color data-c=#{config.colors.blue1}>#{config.colors.blue1}</color>})</span> - set the bar color
+    .command(data-js='dbar.set({barColor: \''+config.colors.green1+'\'})') dbar.<span>set({barColor: <color data-c=#{config.colors.green1}>#{config.colors.green1}</color>})</span> - set the bar color
+    .command(data-js='dbar.set({gradientColor: \''+config.colors.blue7+'\'})') dbar.<span>set({gradientColor: <color data-c=#{config.colors.blue7}>#{config.colors.blue7}</color>})</span> - set the gradient color
 
     .command(data-js='dbar.set({height: \'10px\'})') dbar.<span>set({height: 10px})</span> - set the bar height
     .command(data-js='dbar.set({height: \'20px\'})') dbar.<span>set({height: 20px})</span> - set the bar height

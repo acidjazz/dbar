@@ -4,7 +4,7 @@ dbar
 
 ![](example.gif)
 
-A customizable flexible progress bar w/ a look inspired by the game Destiny.
+A progress bar inspired by the game Destiny.
 
 Installation
 ------------

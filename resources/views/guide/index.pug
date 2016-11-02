@@ -1,5 +1,5 @@
 
-extends ../inc/layout
+extends ../extends/layout
 
 block content
   .guide
@@ -8,11 +8,11 @@ block content
 
       .section.colors
         .title Colors
-        each color, name in data.colors
+        each color, name in config.colors
           .color(class='color_'+name) #{name} (#{color})
 
       .section.fonts
         .title Fonts
-        each font, name in data.fonts
+        each font, name in config.fonts
           .font(class='font_' + name) #{name}: #{font}
  
