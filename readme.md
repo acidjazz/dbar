@@ -1,6 +1,4 @@
-
 ![](example.gif)
-
 dbar
 ====
 
