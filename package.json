@@ -1,6 +1,6 @@
 {
   "name": "dbar",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "destiny-inspired progress bar",
   "main": "index.html",
   "scripts": {
