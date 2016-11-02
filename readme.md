@@ -1,10 +1,15 @@
 
+![](example.gif)
+
 dbar
 ====
 
-![](example.gif)
+A progress bar inspired by playing too much Destiny.
 
-A progress bar inspired by the game Destiny.
+[![npm version](https://badge.fury.io/js/dbar.svg)](https://badge.fury.io/js/dbar)
+
+
+[![NPM](https://nodei.co/npm/dbar.png)](https://nodei.co/npm/dbar/)
 
 Installation
 ------------
