@@ -10,7 +10,24 @@ A progress bar inspired by playing too much Destiny.
 
 [![NPM](https://nodei.co/npm/dbar.png)](https://nodei.co/npm/dbar/)
 
-You can see the demo and examples [here](http://dbar.256.codes)
+You can see the demo and examples [here](http://dbar.256.codes) at [http://dbar.256.codes](http://dbar.256.codes)
+
+
+Example Usage
+
+
+* Initiaate the progress bar
+```javascript
+dbar.i()
+```
+* Set the progress bar to 25%
+```javascript
+dbar.perc(0.25)
+```
+* Complete and remove the progress bar
+```javascript
+dbar.d()
+```
 
 
 Installation
