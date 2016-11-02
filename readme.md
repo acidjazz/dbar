@@ -12,5 +12,5 @@ A progress bar inspired by playing too much Destiny.
 Installation
 ------------
 
-Add [dbar.js](src/dbar.js), [dbar.css](src/dbar.css), and [dbar.html](src/dbar.html) to your project.
+Add [dbar.js](dist/dbar.js), [dbar.css](dist/dbar.css), and [dbar.html](dist/dbar.html) to your project.
 
